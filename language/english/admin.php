@@ -1,9 +1,7 @@
 <?php
-include_once '../../tadtools/language/' . $xoopsConfig['language'] . '/admin_common.php';
-define('_TAD_NEED_TADTOOLS', 'This module needs TadTools module. You can download TadTools from <a href="http://campus-xoops.tn.edu.tw/modules/tad_modules/index.php?module_sn=1" target="_blank">XOOPS EasyGO</a>.');
+xoops_loadLanguage('admin_common', 'tadtools');
 
 //power.php
-define('_MA_TADUP_DB_ERROR1', 'Failed to get tad_uploader data');
 define('_MA_TADUP_SET_ACCESS_POWER', 'Visible folders for each group');
 define('_MA_TADUP_SET_UPLOAD_POWER', 'Uploadable folders for each group');
 define('_MA_TADUP_FOLDER_NAME', 'Folder Name');
@@ -12,7 +10,6 @@ define('_MA_TADUP_FATHER_FOLDER', 'Parent Folder');
 define('_MA_TADUP_ENABLE', 'Status');
 define('_MA_TADUP_SHARE', 'Share');
 define('_MA_TADUP_SAVE', 'Save');
-define('_MA_TADUP_DB_ERROR2', 'Failed to replace tad_uploader data');
 define('_MA_TADUP_FUNCTION', 'Function');
 define('_MA_TADUP_DEL_CONFIRM', 'Delete this folder? This operation will delete all files in this folder!');
 define('_MA_TADUP_LIST_ALL_FILES', 'Display all files');

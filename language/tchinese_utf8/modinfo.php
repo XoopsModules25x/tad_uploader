@@ -1,6 +1,5 @@
 <?php
-include_once XOOPS_ROOT_PATH . '/modules/tadtools/language/' . $xoopsConfig['language'] . '/modinfo_common.php';
-
+xoops_loadLanguage('modinfo_common', 'tadtools');
 define('_MI_TADUP_NAME', '網路硬碟');
 define('_MI_TADUP_DESC', '就是上傳模組囉～');
 define('_MI_TADUP_CREDITS', '林朝敏老師 (prolin99@gmail.com)');
@@ -21,7 +20,7 @@ define('_MI_SHOW_MODE_MORE', '詳細列表');
 define('_MI_SHOW_MODE_ICON', '圖示');
 
 define('_MI_TADUPLOADER_DIRNAME', basename(dirname(dirname(__DIR__))));
-define('_MI_TADUPLOADER_HELP_HEADER', __DIR__ . '/help/helpheader.html');
+define('_MI_TADUPLOADER_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
 define('_MI_TADUPLOADER_BACK_2_ADMIN', '管理');
 
 //help
